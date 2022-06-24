@@ -2603,12 +2603,12 @@ void draw() {
 
 
     //lantai 4
-    
+
     //atapkiri
     glPushMatrix();
     glTranslatef(-170, 540, 160);
     glRotatef(90, 0, 2, 0);
-    glColor3f(0.24, 0.24, 0.24);
+    glColor3f(0.19, 0.38, 0.26);
     glBegin(GL_POLYGON);
     glVertex3f(0.0, 0.0, 0.0);
     glVertex3f(140.0, 60.0, 170.0);
@@ -2619,7 +2619,7 @@ void draw() {
     glPushMatrix();
     glTranslatef(160, 540, 160);
     glRotatef(90, 0, 2, 0);
-    glColor3f(0.24, 0.24, 0.24);
+    glColor3f(0.19, 0.38, 0.26);
     glBegin(GL_POLYGON);
     glVertex3f(0.0, 0.0, 0.0);
     glVertex3f(140.0, 60.0, -170.0);
@@ -2629,7 +2629,7 @@ void draw() {
     //atapdepan
     glPushMatrix();
     glTranslatef(-170, 540, 160);
-    glColor3f(0.24, 0.24, 0.24);
+    glColor3f(0.19, 0.38, 0.26);
     glBegin(GL_POLYGON);
     glVertex3f(0.0, 0.0, 0.0);
     glVertex3f(165.0, 60.0, -140.0);
@@ -2639,7 +2639,7 @@ void draw() {
     //atapbelakang
     glPushMatrix();
     glTranslatef(-170, 540, -140);
-    glColor3f(0.24, 0.24, 0.24);
+    glColor3f(0.19, 0.38, 0.26);
     glBegin(GL_POLYGON);
     glVertex3f(0.0, 0.0, 0.0);
     glVertex3f(165.0, 60.0, 160.0);
@@ -2650,7 +2650,7 @@ void draw() {
     glPushMatrix();
     glTranslatef(-170, 440, 160);
     glRotatef(90, 0, 2, 0);
-    glColor3f(0.24, 0.24, 0.24);
+    glColor3f(0.19, 0.38, 0.26);
     glBegin(GL_POLYGON);
     glVertex3f(0.0, 0.0, 0.0);
     glVertex3f(140.0, 60.0, 170.0);
@@ -2661,7 +2661,7 @@ void draw() {
     glPushMatrix();
     glTranslatef(160, 440, 160);
     glRotatef(90, 0, 2, 0);
-    glColor3f(0.24, 0.24, 0.24);
+    glColor3f(0.19, 0.38, 0.26);
     glBegin(GL_POLYGON);
     glVertex3f(0.0, 0.0, 0.0);
     glVertex3f(140.0, 60.0, -170.0);
@@ -2671,7 +2671,7 @@ void draw() {
     //atapdepan
     glPushMatrix();
     glTranslatef(-170, 440, 160);
-    glColor3f(0.24, 0.24, 0.24);
+    glColor3f(0.19, 0.38, 0.26);
     glBegin(GL_POLYGON);
     glVertex3f(0.0, 0.0, 0.0);
     glVertex3f(165.0, 60.0, -140.0);
@@ -2681,7 +2681,7 @@ void draw() {
     //atapbelakang
     glPushMatrix();
     glTranslatef(-170, 440, -140);
-    glColor3f(00.24, 0.24, 0.24);
+    glColor3f(0.19, 0.38, 0.26);
     glBegin(GL_POLYGON);
     glVertex3f(0.0, 0.0, 0.0);
     glVertex3f(165.0, 60.0, 160.0);
@@ -2693,7 +2693,7 @@ void draw() {
     glPushMatrix();
     glTranslatef(-170, 315, 160);
     glRotatef(90, 0, 2, 0);
-    glColor3f(0.24, 0.24, 0.24);
+    glColor3f(0.19, 0.38, 0.26);
     glBegin(GL_POLYGON);
     glVertex3f(0.0, 0.0, 0.0);
     glVertex3f(140.0, 60.0, 190.0);
@@ -2704,7 +2704,7 @@ void draw() {
     glPushMatrix();
     glTranslatef(160, 315, 160);
     glRotatef(90, 0, 2, 0);
-    glColor3f(0.24, 0.24, 0.24);
+    glColor3f(0.19, 0.38, 0.26);
     glBegin(GL_POLYGON);
     glVertex3f(0.0, 0.0, 0.0);
     glVertex3f(140.0, 60.0, -170.0);
@@ -2714,7 +2714,7 @@ void draw() {
     //atapdepan
     glPushMatrix();
     glTranslatef(-170, 315, 160);
-    glColor3f(0.24, 0.24, 0.24);
+    glColor3f(0.19, 0.38, 0.26);
     glBegin(GL_POLYGON);
     glVertex3f(0.0, 0.0, 0.0);
     glVertex3f(165.0, 60.0, -140.0);
@@ -2724,7 +2724,7 @@ void draw() {
     //atapbelakang
     glPushMatrix();
     glTranslatef(-170, 315, -140);
-    glColor3f(0.24, 0.24, 0.24);
+    glColor3f(0.19, 0.38, 0.26);
     glBegin(GL_POLYGON);
     glVertex3f(0.0, 0.0, 0.0);
     glVertex3f(165.0, 60.0, 160.0);
@@ -3074,7 +3074,7 @@ void draw() {
     glPushMatrix();
     glEnable(GL_COLOR_MATERIAL);
     glColor3f(0.95, 0.8, 0.4);
-    glTranslatef(-5, 135,-110);
+    glTranslatef(-5, 135, -110);
     glRotatef(0.0f, 0.0f, 1.0f, 0.0f);
     glScalef(1, 1, 2);
     glutSolidCube(5);
@@ -3752,7 +3752,7 @@ void draw() {
     glColor3f(0.63, 0.63, 0.63);
     gluCylinder(gluNewQuadric(), 2.0f, 2.0f, 30.0f, 22, 10);
     glPopMatrix();
-   
+
 
     //teko lt1
     glPushMatrix();
@@ -3850,14 +3850,14 @@ void draw() {
     glScalef(20, 10, 1);
     glutSolidCube(2);
     glDisable(GL_COLOR_MATERIAL);
-    glPopMatrix();    
+    glPopMatrix();
     //tiang
     glPushMatrix();
     glTranslatef(-15, 305, -70);
     glRotatef(90.0f, 1.0f, 0.0f, 0.0f);
     glColor3f(0.63, 0.63, 0.63);
     gluCylinder(gluNewQuadric(), 1.0f, 1.0f, 42.0f, 22, 10);
-    glPopMatrix();   
+    glPopMatrix();
     //tiang
     glPushMatrix();
     glTranslatef(15, 305, -70);
@@ -3895,7 +3895,7 @@ void draw() {
     glColor3f(0.95, 0.8, 0.4);
     glTranslatef(330, 170, -330);
     glutWireSphere(10, 24, 24);
-    glPopMatrix();    
+    glPopMatrix();
     //lampion
     glPushMatrix();
     glColor3f(0.95, 0.8, 0.4);
