@@ -10,7 +10,7 @@ using namespace std;
 //  Gabriel Patandung (672020069)
 //  Albert Pariama (672020245)
 //  Kevin Francisco (672020020)
-//  Vendy Jericho Borong Badja (672019002)
+//  Vendy Jericho Borong Badja (672020069)
 
 
 const int width = 1280;
@@ -3029,7 +3029,7 @@ void draw() {
     //pintu 1 depan
     glPushMatrix();
     glEnable(GL_COLOR_MATERIAL);
-    glColor3f(0.12, 0.12, 0.12);
+    glColor3f(0.59, 0.13, 0.13);
     glTranslatef(0, 130, 150);
     glRotatef(0, 0, 1, 0);
     glScalef(5.5, 8.5, 1);
@@ -3063,7 +3063,7 @@ void draw() {
     //pintu 1 belakang
     glPushMatrix();
     glEnable(GL_COLOR_MATERIAL);
-    glColor3f(0.12, 0.12, 0.12);
+    glColor3f(0.59, 0.13, 0.13);
     glTranslatef(0, 130, -110);
     glRotatef(0, 0, 1, 0);
     glScalef(5.5, 8.5, 1);
@@ -3096,7 +3096,7 @@ void draw() {
     //pintu 1 kiri
     glPushMatrix();
     glEnable(GL_COLOR_MATERIAL);
-    glColor3f(0.12, 0.12, 0.12);
+    glColor3f(0.59, 0.13, 0.13);
     glTranslatef(-130, 130, 20);
     glRotatef(0.0f, 0.0f, 1.0f, 0.0f);
     glScalef(1, 8.5, 5.5);
@@ -3126,7 +3126,7 @@ void draw() {
     //pintu 1 kanan
     glPushMatrix();
     glEnable(GL_COLOR_MATERIAL);
-    glColor3f(0.12, 0.12, 0.12);
+    glColor3f(0.59, 0.13, 0.13);
     glTranslatef(130, 130, 20);
     glRotatef(0.0f, 0.0f, 1.0f, 0.0f);
     glScalef(1, 8.5, 5.5);
@@ -3159,7 +3159,7 @@ void draw() {
     //pintu 2 kanan
     glPushMatrix();
     glEnable(GL_COLOR_MATERIAL);
-    glColor3f(0.12, 0.12, 0.12);
+    glColor3f(0.59, 0.13, 0.13);
     glTranslatef(-90, 235, 20);
     glRotatef(0.0f, 0.0f, 1.0f, 0.0f);
     glScalef(1, 9, 6);
@@ -3190,7 +3190,7 @@ void draw() {
     //pintu 2 kanan
     glPushMatrix();
     glEnable(GL_COLOR_MATERIAL);
-    glColor3f(0.12, 0.12, 0.12);
+    glColor3f(0.59, 0.13, 0.13);
     glTranslatef(90, 235, 20);
     glRotatef(0.0f, 0.0f, 1.0f, 0.0f);
     glScalef(1, 9, 6);
@@ -3222,7 +3222,7 @@ void draw() {
     //pintu 4 belakang
     glPushMatrix();
     glEnable(GL_COLOR_MATERIAL);
-    glColor3f(0.12, 0.12, 0.12);
+    glColor3f(0.59, 0.13, 0.13);
     glTranslatef(0, 495, -20);
     glRotatef(0.0f, 0.0f, 1.0f, 0.0f);
     glScalef(2.5, 5, 1);
@@ -3242,7 +3242,7 @@ void draw() {
     //pintu 4 belakang
     glPushMatrix();
     glEnable(GL_COLOR_MATERIAL);
-    glColor3f(0.12, 0.12, 0.12);
+    glColor3f(0.59, 0.13, 0.13);
     glTranslatef(0, 495, 60);
     glRotatef(0.0f, 0.0f, 1.0f, 0.0f);
     glScalef(2.5, 5, 1);
@@ -3259,7 +3259,6 @@ void draw() {
     glutSolidCube(5);
     glDisable(GL_COLOR_MATERIAL);
     glPopMatrix();
-
 
 
 
@@ -3902,6 +3901,8 @@ void draw() {
     glTranslatef(-330, 170, -330);
     glutWireSphere(10, 24, 24);
     glPopMatrix();
+
+
 
 
     ground();
